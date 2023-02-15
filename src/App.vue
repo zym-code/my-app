@@ -8,4 +8,5 @@
 
 <style scoped>
     @import './assets/style/main.scss';
+    @import './assets/style/reset.scss';
 </style>
