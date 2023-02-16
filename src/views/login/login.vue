@@ -29,7 +29,7 @@
                     <a-form-item label="密码" name="passWord">
                         <a-input class="txtb" v-model:value="formState.passWord" :bordered="false"/>
                     </a-form-item>
-                    <div class="forgetPwd" @click="forgetPwd">忘记密码？</div>
+                    <div class="forgetPwd" @click="signIn">忘记密码？</div>
                     <button>登录</button>
                 </div>
             </div>
